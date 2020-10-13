@@ -5,6 +5,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/reset\.scss}line{font-family:\000036}}
 img {
-  background-size: 100hv; }
+  height: 100hv;
+  width: 100%; }
 
 /*# sourceMappingURL=reset.css.map */

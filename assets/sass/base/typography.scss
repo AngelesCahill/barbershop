@@ -1,5 +1,62 @@
 $font-playfair: 'Playfair Display', serif;
 $font-roboto: 'Roboto', sans-serif;
+/*tamaño de letras*/
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
 
-    
+h1 {
+    font-family: $font-playfair;
+    font-size: $xx-large;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30%;
+} 
+
+@media (max-width: 575px) {
+    h1 {
+        font-family: $font-playfair;
+        font-size: $medium;
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+        padding-top: 10%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    h1 {
+        font-family: $font-playfair;
+        font-size: $x-large;
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+        padding-top: 10%;
+    }
+}
+/*seccion article*/
+.articulo {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+h5 {
+    font-family: $font-roboto;
+    font-size: $small;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    }
+
+.articulo__parrafo {
+    font-family: $font-roboto;
+    font-size: $medium;
+    font-weight: 300;
+    margin-left: 0;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+
 

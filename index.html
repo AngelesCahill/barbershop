@@ -37,24 +37,29 @@
   <!--header-->
   <header class="header">
     <div class="header-imagen card bg-dark text-white">
-        <img src="./assets/img/post-image.jpg" class="card-img" alt="imagen de fondo">
-        <div class="header-titulo card-img-overlay">
-          <h5 class="card-title">5 formas de cuidar tu corte de cabello</h5>
+        <img src="./assets/img/post-image.jpg" class="card-img col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" alt="imagen de fondo">
+        <div class="header-titulo card-img-overlay d-block">
+          <h1 class="card-title col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p>5 formas de cuidar</p>
+            <p>tu corte de cabello</p>
+          </h1>
+         
+          
         </div>
       </div>
   </header>
   
-  <main class="main m-5">
-      <article class="articulo m-5  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <h5 class="articulo-fecha">18 de abril de 2018</h5>
-          <p class="articulo-parrafo">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p class="articulo-parrafo">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p class="articulo-parrafo">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p class="articulo-parrafo">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. </p>
-          <p class="articulo-parrafo">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <main class="main mx-5">
+      <article class="articulo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h5 class="articulo__fecha">18 de abril de 2018</h5>
+          <p class="articulo__parrafo text-justify">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="articulo__parrafo text-justify">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="articulo__parrafo text-justify">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="articulo__parrafo text-justify">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. </p>
+          <p class="articulo__parrafo text-justify">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <!--botones-->
-          <div>
-            <button type="button" class="btn btn-secondary rounded-pill">compartir</button>
+          <div class="articulo__botones">
+            <button type="button" class="articulo__botones__buttons btn btn-secondary rounded-pill">compartir</button>
             <button type="button" class="btn btn-secondary rounded-pill">Comentar en twiter</button>
           </div>
       </article>
@@ -72,21 +77,21 @@
           </div>
       </section>
       <!--paginacion-->
-      <section>
-        <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-end">
-              <li class="page-item disabled">
+      
+        <nav class="paginacion" aria-label="Page navigation example">
+            <ul class="pagination justify-content-end paginacion__area">
+              <li class="page-item disabled paginacion__area__botonesanterior">
                 <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
               </li>
               <li class="page-item"><a class="page-link" href="#">1</a></li>
               <li class="page-item"><a class="page-link" href="#">2</a></li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
               <li class="page-item">
-                <a class="page-link" href="#">Siguiente</a>
+                <a class="page-link paginacion__area__botonessiguiente" href="#">Siguiente</a>
               </li>
             </ul>
           </nav>
-      </section>
+      
     </main>
       <!--footer-->
       <footer class="bg-dark">

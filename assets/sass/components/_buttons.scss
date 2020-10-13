@@ -1,0 +1,16 @@
+.articulo__botones {
+    margin-top: 3rem;
+    &__buttons {
+        margin-right: 2rem;
+    }
+}
+.paginacion {
+    background-color: $grisclaro;
+    height: 8rem;
+    padding: 45px;
+        &__area {
+            margin-left: 0;
+            margin-right: 40%;
+            position: relative;
+        }
+}
