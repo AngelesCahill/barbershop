@@ -1,11 +1,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/reset\.scss}line{font-family:\000031}}
 body {
   margin: 0;
-  padding: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/reset\.scss}line{font-family:\000036}}
-img {
-  height: 100hv;
-  width: 100%; }
+  padding: 0;
+  text-align: center; }
 
 /*# sourceMappingURL=reset.css.map */
