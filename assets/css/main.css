@@ -9963,22 +9963,28 @@ h5 {
   margin-left: 400%;
 }
 
-.articulo__botones {
-  margin-top: 3rem;
-}
-.articulo__botones__buttons {
-  margin-right: 2rem;
+/*botones nav*/
+.navbar__superior:hover {
+  background-color: #e56353;
 }
 
-.paginacion {
+/*botones compartir bajo el articulo*/
+.articulo__botones__buttons:hover {
   background-color: #e6e7e7;
-  height: 8rem;
-  padding: 45px;
 }
-.paginacion__area {
-  margin-left: 0;
-  margin-right: 40%;
-  position: relative;
+
+/*link de Nao Thai*/
+.presentacion__datos .presentacion__datos__link:visited {
+  color: #d76c69;
+}
+
+/*botones de paginacion*/
+.paginacion .paginacion__area .paginacion__area__botonesanterior .page-link {
+  border-radius: 55px 0px 0px 55px;
+}
+
+.paginacion .paginacion__area .paginacion__area__botonessiguiente .page-link {
+  border-radius: 0px 55px 55px 0px;
 }
 
 /*# sourceMappingURL=main.css.map */
