@@ -6,9 +6,7 @@
 }
 /*botones compartir bajo el articulo*/
 .articulo__botones__buttons {
-    &:hover {
-        background-color: $grisclaro;
-    }
+    @include resaltadorbotones;
 }
 /*link de Nao Thai*/
 .presentacion__datos {

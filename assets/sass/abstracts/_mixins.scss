@@ -1,0 +1,5 @@
+@mixin resaltadorbotones {
+    &:hover {
+        background-color: $grisclaro;
+    }
+}
