@@ -1,0 +1,12 @@
+.logofooter {
+    align-content: center;
+    height: 105px;
+    background-color: $negro;
+    &__logo {
+        &__imagen {
+            width: 150px;
+            height: auto;
+            margin-left: 400%;
+        }
+    }
+}

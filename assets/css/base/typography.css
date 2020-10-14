@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*tamaño de letras*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/typography\.scss}line{font-family:\0000310}}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  padding-top: 30%; }
+
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/typography\.scss}line{font-family:\0000320}}
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10%; } }
+@media (min-width: 576px) and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/typography\.scss}line{font-family:\0000331}}
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10%; } }
+/*seccion article*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/typography\.scss}line{font-family:\0000341}}
+.articulo {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/typography\.scss}line{font-family:\0000345}}
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/DESAFIOLATAM\/BarberShop\/assets\/sass\/base\/typography\.scss}line{font-family:\0000352}}
+.articulo__parrafo {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 0;
+  margin-bottom: 3rem;
+  margin-top: 2rem; }
+
+/*# sourceMappingURL=typography.css.map */

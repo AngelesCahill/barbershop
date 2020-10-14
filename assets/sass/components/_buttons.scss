@@ -1,0 +1,38 @@
+/*botones nav*/
+.navbar__superior {
+    &:hover {
+        background-color: $rojo;
+    }
+}
+/*botones compartir bajo el articulo*/
+.articulo__botones__buttons {
+    @include resaltadorbotones;
+}
+/*link de Nao Thai*/
+.presentacion__datos {
+    .presentacion__datos__link {
+        &:visited {
+            color: $rojooscuro;
+        }
+    }
+}
+/*botones de paginacion*/
+.paginacion {
+    .paginacion__area {
+        .paginacion__area__botonesanterior {
+            .page-link {
+                border-radius: 55px 0px 0px 55px;
+            }
+        }
+        
+    }
+}
+.paginacion {
+    .paginacion__area {
+        .paginacion__area__botonessiguiente  {
+            .page-link {
+                border-radius: 0px 55px 55px 0px;
+            }
+        }
+    }
+}
